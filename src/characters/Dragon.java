@@ -1,6 +1,7 @@
 package characters;
 
 import abc.Character;
+import activities.Fly;
 import weapons.FireStream;
 
 public class Dragon extends Character {
@@ -8,5 +9,6 @@ public class Dragon extends Character {
         super(name);
         health = 50;
         giveWeapon(new FireStream());
+        setWalkBehavior(new Fly());
     }
 }

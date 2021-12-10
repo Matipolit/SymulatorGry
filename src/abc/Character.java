@@ -26,6 +26,7 @@ public abstract class Character {
     protected void setWalkBehavior(WalkBehavior wb){
         this.walkBehavior = wb;
     }
+    public void introduceYourself() { System.out.println("My name is " + name +" .");}
 
 
 }

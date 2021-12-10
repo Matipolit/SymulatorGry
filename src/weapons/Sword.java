@@ -8,8 +8,6 @@ public class Sword extends abc.Weapon {
 
     @Override
     public void display() {
-        System.out.println("      /| ________________\n" +
-                "O|===|* >________________>\n" +
-                "      \\|");
+        System.out.println("It's a sword!");
     }
 }
